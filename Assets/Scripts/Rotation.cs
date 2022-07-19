@@ -5,16 +5,12 @@ using UnityEngine;
 public class Rotation : MonoBehaviour
 {
     public GameObject target;
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
+    public int speed = 100;
 
     // Update is called once per frame
     void Update()
     {
 
-        transform.RotateAround(target.transform.position, Vector3.up, 20 * Time.deltaTime);
+        transform.RotateAround(target.transform.position, Vector3.up, speed * Time.deltaTime);
     }
 }

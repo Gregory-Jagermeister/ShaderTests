@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Unlit Mat
-  m_Shader: {fileID: 4800000, guid: a4badfdc0be1ea044a691bf35b33fe30, type: 3}
+  m_Shader: {fileID: 4800000, guid: 5863c177047f2f443b4881e5b1378362, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -64,29 +64,40 @@ Material:
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
+    - _DepthBias: 2.18
+    - _DepthMult: 1.41
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 6.67
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
+    - _NormalBias: 2.28
+    - _NormalMult: 1.77
     - _OcclusionStrength: 1
+    - _Outline: 0.03
     - _Parallax: 0.02
+    - _RimAmount: 0.542
+    - _RimThreshold: 0.595
     - _SmoothnessTextureChannel: 0
-    - _SpecularFalloff: 0.93
+    - _SpecularFalloff: 0.67
     - _SpecularHighlights: 1
-    - _SpecularSize: 0.306
+    - _SpecularSize: 0.311
     - _SrcBlend: 1
-    - _StepAmount: 5
-    - _StepWidth: 0.202
+    - _StepAmount: 3
+    - _StepWidth: 0.224
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.6981132, g: 0, b: 0, a: 1}
+    - _AmbientColor: {r: 0.4, g: 0.4, b: 0.4, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Emission: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _Ramp: {r: 0, g: 0, b: 0, a: 1}
-    - _ShadowTint: {r: 0.3207547, g: 0.3207547, b: 0.3207547, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadowTint: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}
     - _Specular: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 0.9, g: 0.9, b: 0.9, a: 1}
   m_BuildTextureStacks: []
